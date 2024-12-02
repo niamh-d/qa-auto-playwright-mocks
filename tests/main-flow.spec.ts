@@ -15,7 +15,7 @@ test('main flow', async ({ page }) => {
   await expect(page.getByTestId('id-small-loan-calculator-field-error')).toBeVisible()
 });
 
-test.only('positive scenario', async ({ page }) => {
+test('positive scenario', async ({ page }) => {
 
   const valueMock = 42.8
 
